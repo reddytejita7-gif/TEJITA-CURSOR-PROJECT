@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0a09" />
+    <meta
+      name="description"
+      content="La Dolce Brew is an Italian cuisine cafe in Bangalore — fresh pasta, wood-fired pizzas, tiramisu, and espresso."
+    />
+    <title>La Dolce Brew • Bangalore</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500,650&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-row">
+        <a class="brand" href="#top" aria-label="La Dolce Brew home">
+          <span class="brand-mark" aria-hidden="true">L</span>
+          <span class="brand-text">
+            <span class="brand-name">La Dolce Brew</span>
+            <span class="brand-tag">Italian Café • Bangalore</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav-toggle-lines" aria-hidden="true"><span></span></span>
+            <span class="sr-only">Open menu</span>
+          </button>
+
+          <div class="nav-menu" id="nav-menu" data-nav-menu>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#location">Location</a>
+            <a class="btn btn--small" href="#reserve">Reserve</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Italian cuisine • Indiranagar, Bangalore</p>
+            <h1>Fresh pasta, wood-fired pizza, and espresso—made the Italian way.</h1>
+            <p class="lead">
+              Cozy café vibes with a crisp Italian menu: handmade sauces, seasonal ingredients, and desserts you’ll
+              remember.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn" href="#menu">Explore menu</a>
+              <a class="btn btn--ghost" href="#location">Get directions</a>
+            </div>
+
+            <ul class="quick-facts" aria-label="Cafe highlights">
+              <li>
+                <span class="qf-label">Hours</span>
+                <span class="qf-value">11:00 AM – 11:00 PM</span>
+              </li>
+              <li>
+                <span class="qf-label">Specials</span>
+                <span class="qf-value">Lunch combos (weekdays)</span>
+              </li>
+              <li>
+                <span class="qf-label">Best for</span>
+                <span class="qf-value">Dates • work • family</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Signature items">
+            <div class="hero-card-top">
+              <p class="chip">Today’s signature</p>
+              <h2 class="hero-card-title">Truffle Mushroom Tagliatelle</h2>
+              <p class="muted">Creamy, earthy, and finished with parmesan and parsley.</p>
+            </div>
+
+            <div class="hero-card-bottom">
+              <div class="stat">
+                <span class="stat-num">4.7</span>
+                <span class="stat-label">Google rating</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">15–20</span>
+                <span class="stat-label">min avg wait</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">Veg</span>
+                <span class="stat-label">friendly</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bg" aria-hidden="true"></div>
+      </section>
+
+      <section class="section" id="menu">
+        <div class="container">
+          <div class="section-head">
+            <h2>Menu</h2>
+            <p class="muted">
+              Italian café classics with Bangalore-friendly portions and pricing. Ask for gluten-free pasta and vegan
+              swaps.
+            </p>
+          </div>
+
+          <div class="menu-grid" role="list">
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Antipasti</h3>
+                <p class="muted">To start (V / NV)</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Bruschetta Pomodoro (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹249</span>
+                </li>
+                <li>
+                  <span class="item">Caprese Salad (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹349</span>
+                </li>
+                <li>
+                  <span class="item">Garlic Herb Focaccia (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹229</span>
+                </li>
+                <li>
+                  <span class="item">Chicken Piccata Bites (NV)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹429</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Soups & Salads</h3>
+                <p class="muted">Light & fresh</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Minestrone Soup (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹279</span>
+                </li>
+                <li>
+                  <span class="item">Creamy Mushroom Soup (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹309</span>
+                </li>
+                <li>
+                  <span class="item">Caesar Salad (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹349</span>
+                </li>
+                <li>
+                  <span class="item">Caesar Salad (Chicken) (NV)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹429</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Pasta</h3>
+                <p class="muted">Handmade sauces (V / NV)</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Spaghetti Aglio e Olio (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹399</span>
+                </li>
+                <li>
+                  <span class="item">Penne Arrabbiata (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹419</span>
+                </li>
+                <li>
+                  <span class="item">Fettuccine Alfredo (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹469</span>
+                </li>
+                <li>
+                  <span class="item">Truffle Mushroom Tagliatelle (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹579</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Wood-fired Pizza</h3>
+                <p class="muted">Thin, crisp crust (V / NV)</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Margherita (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹479</span>
+                </li>
+                <li>
+                  <span class="item">Pesto Veggie (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹529</span>
+                </li>
+                <li>
+                  <span class="item">Four Cheese (V)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹569</span>
+                </li>
+                <li>
+                  <span class="item">Pepperoni (classic) (NV)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹619</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Desserts</h3>
+                <p class="muted">Sweet finish</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Tiramisu</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹319</span>
+                </li>
+                <li>
+                  <span class="item">Panna Cotta (berry)</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹299</span>
+                </li>
+                <li>
+                  <span class="item">Chocolate Lava Cake</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹329</span>
+                </li>
+                <li>
+                  <span class="item">Affogato</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹269</span>
+                </li>
+              </ul>
+            </article>
+
+            <article class="card" role="listitem">
+              <div class="card-head">
+                <h3>Coffee & Drinks</h3>
+                <p class="muted">Espresso bar</p>
+              </div>
+              <ul class="menu-list">
+                <li>
+                  <span class="item">Espresso</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹139</span>
+                </li>
+                <li>
+                  <span class="item">Cappuccino</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹189</span>
+                </li>
+                <li>
+                  <span class="item">Iced Latte</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹219</span>
+                </li>
+                <li>
+                  <span class="item">Virgin Mojito</span>
+                  <span class="dots" aria-hidden="true"></span>
+                  <span class="price">₹249</span>
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="section-foot">
+            <p class="note">
+              Menu & prices can be updated anytime in <span class="mono">index.html</span>. Add (V) or (NV) to item names as
+              needed.
+            </p>
+            <a class="btn btn--ghost btn--small" href="#reserve">Book a table</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="about">
+        <div class="container about-grid">
+          <div>
+            <div class="section-head">
+              <h2>About La Dolce Brew</h2>
+              <p class="muted">
+                A Bangalore café inspired by Italian trattorias—warm lighting, honest food, and espresso done right.
+              </p>
+            </div>
+
+            <div class="about-points">
+              <div class="pill">
+                <h3>Fresh ingredients</h3>
+                <p class="muted">Seasonal produce, slow-simmered sauces, and house-made basil pesto.</p>
+              </div>
+              <div class="pill">
+                <h3>Comfortable seating</h3>
+                <p class="muted">Perfect for work sessions, dates, and small celebrations.</p>
+              </div>
+              <div class="pill">
+                <h3>Vegetarian-friendly</h3>
+                <p class="muted">Plenty of veg options (and swap-ins on request).</p>
+              </div>
+            </div>
+          </div>
+
+          <aside class="about-card" aria-label="Cafe details">
+            <div class="about-card-inner">
+              <h3 class="about-card-title">Quick details</h3>
+              <dl class="dl">
+                <div>
+                  <dt>Address</dt>
+                  <dd>Indiranagar, Bangalore (sample)</dd>
+                </div>
+                <div>
+                  <dt>Phone</dt>
+                  <dd><a href="tel:+919876543210">+91 98765 43210</a></dd>
+                </div>
+                <div>
+                  <dt>WhatsApp</dt>
+                  <dd><a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">Chat to reserve</a></dd>
+                </div>
+                <div>
+                  <dt>Dietary</dt>
+                  <dd>Veg • Non-veg • GF options</dd>
+                </div>
+              </dl>
+
+              <div class="about-card-cta">
+                <a class="btn btn--small" href="#reserve">Reserve now</a>
+                <a class="btn btn--ghost btn--small" href="#menu">View menu</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <h2>Gallery</h2>
+            <p class="muted">Click any card to preview (placeholders—swap with your photos).</p>
+          </div>
+
+          <div class="gallery-grid" role="list">
+            <button class="gallery-tile" type="button" data-gallery-item data-title="Wood-fired pizza">
+              <span class="gallery-art g1" aria-hidden="true"></span>
+              <span class="gallery-label">
+                <span class="gl-title">Wood-fired pizza</span>
+                <span class="gl-sub">Thin crust • fresh basil</span>
+              </span>
+            </button>
+
+            <button class="gallery-tile" type="button" data-gallery-item data-title="Pasta night">
+              <span class="gallery-art g2" aria-hidden="true"></span>
+              <span class="gallery-label">
+                <span class="gl-title">Pasta night</span>
+                <span class="gl-sub">House-made sauces</span>
+              </span>
+            </button>
+
+            <button class="gallery-tile" type="button" data-gallery-item data-title="Dessert & espresso">
+              <span class="gallery-art g3" aria-hidden="true"></span>
+              <span class="gallery-label">
+                <span class="gl-title">Dessert & espresso</span>
+                <span class="gl-sub">Tiramisu • affogato</span>
+              </span>
+            </button>
+
+            <button class="gallery-tile" type="button" data-gallery-item data-title="Cozy seating">
+              <span class="gallery-art g4" aria-hidden="true"></span>
+              <span class="gallery-label">
+                <span class="gl-title">Cozy seating</span>
+                <span class="gl-sub">Perfect for work & dates</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="location">
+        <div class="container location-grid">
+          <div>
+            <div class="section-head">
+              <h2>Location & hours</h2>
+              <p class="muted">Update the address and map link to your exact spot in Bangalore.</p>
+            </div>
+
+            <div class="card">
+              <div class="two-col">
+                <div>
+                  <h3 class="h4">Address</h3>
+                  <p class="muted">100 Feet Road, Indiranagar, Bengaluru, Karnataka (sample)</p>
+                  <a
+                    class="btn btn--ghost btn--small"
+                    href="https://www.google.com/maps/search/?api=1&query=Indiranagar%20Bangalore%20Italian%20cafe"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open in Google Maps
+                  </a>
+                </div>
+                <div>
+                  <h3 class="h4">Hours</h3>
+                  <ul class="hours" aria-label="Hours">
+                    <li><span>Mon–Thu</span><span>11:00 – 23:00</span></li>
+                    <li><span>Fri</span><span>11:00 – 23:30</span></li>
+                    <li><span>Sat</span><span>10:30 – 23:30</span></li>
+                    <li><span>Sun</span><span>10:30 – 23:00</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="map-card" aria-label="Map preview">
+            <div class="map-placeholder" role="img" aria-label="Map placeholder for cafe location">
+              <div class="map-pin" aria-hidden="true"></div>
+              <div class="map-text">
+                <p class="map-title">Bangalore</p>
+                <p class="muted">Indiranagar • Italian Café</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="reserve">
+        <div class="container reserve-grid">
+          <div>
+            <div class="section-head">
+              <h2>Reserve a table</h2>
+              <p class="muted">This form is front-end only (no server). It will draft a WhatsApp message for you.</p>
+            </div>
+
+            <form class="form card" data-reserve-form>
+              <div class="form-grid">
+                <label class="field">
+                  <span class="label">Name</span>
+                  <input name="name" autocomplete="name" placeholder="Your name" required />
+                </label>
+
+                <label class="field">
+                  <span class="label">Phone</span>
+                  <input name="phone" autocomplete="tel" placeholder="+91 XXXXX XXXXX" required />
+                </label>
+
+                <label class="field">
+                  <span class="label">Date</span>
+                  <input name="date" type="date" required />
+                </label>
+
+                <label class="field">
+                  <span class="label">Time</span>
+                  <input name="time" type="time" required />
+                </label>
+
+                <label class="field">
+                  <span class="label">Guests</span>
+                  <select name="guests" required>
+                    <option value="1">1</option>
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                  </select>
+                </label>
+
+                <label class="field field--full">
+                  <span class="label">Notes (optional)</span>
+                  <textarea name="notes" rows="4" placeholder="Window seat, birthday, allergies, etc."></textarea>
+                </label>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn" type="submit">Send on WhatsApp</button>
+                <button class="btn btn--ghost" type="button" data-copy-message>Copy message</button>
+              </div>
+
+              <p class="form-hint muted" data-form-hint>
+                Tip: Update the WhatsApp number in <span class="mono">script.js</span>.
+              </p>
+            </form>
+          </div>
+
+          <aside class="contact-card card" aria-label="Contact details">
+            <h3>Contact</h3>
+            <p class="muted">For bulk orders, events, and custom cakes—message us.</p>
+
+            <div class="contact-lines">
+              <a class="contact-line" href="tel:+919876543210">
+                <span class="cl-k">Phone</span>
+                <span class="cl-v">+91 98765 43210</span>
+              </a>
+              <a class="contact-line" href="mailto:hello@ladolcebrew.cafe">
+                <span class="cl-k">Email</span>
+                <span class="cl-v">hello@ladolcebrew.cafe</span>
+              </a>
+              <a class="contact-line" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                <span class="cl-k">Instagram</span>
+                <span class="cl-v">@ladolcebrew.cafe</span>
+              </a>
+            </div>
+
+            <div class="divider" aria-hidden="true"></div>
+
+            <div class="badges" aria-label="Service badges">
+              <span class="badge">Dine-in</span>
+              <span class="badge">Takeaway</span>
+              <span class="badge">Delivery (partner)</span>
+              <span class="badge">Wi‑Fi</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p class="muted">© <span data-year></span> La Dolce Brew, Bangalore. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#menu">Menu</a>
+          <a href="#location">Location</a>
+          <a href="#reserve">Reserve</a>
+        </div>
+      </div>
+    </footer>
+
+    <dialog class="dialog" data-gallery-dialog aria-label="Image preview">
+      <div class="dialog-inner">
+        <div class="dialog-media" data-dialog-media aria-hidden="true"></div>
+        <div class="dialog-meta">
+          <p class="dialog-title" data-dialog-title>Preview</p>
+          <button class="btn btn--ghost btn--small" type="button" data-dialog-close>Close</button>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
